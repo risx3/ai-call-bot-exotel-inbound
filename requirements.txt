@@ -1,0 +1,7 @@
+pipecat-ai[webrtc,daily,silero,openai,local-smart-turn-v3,runner,elevenlabs]
+pipecat-ai-cli
+python-dotenv
+loguru
+httpx
+uvicorn
+anyio
