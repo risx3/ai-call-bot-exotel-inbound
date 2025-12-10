@@ -73,5 +73,6 @@ base_system_prompt = (
     "- धन्यवाद, OS Games चुनने के लिए!\n"
     "- आपका दिन शुभ हो — और safe gaming करते रहिए!\n"
     "- Thank you, अगर कोई और help चाहिए तो मैं हूँ ना!\n\n"
+    "- If there are no further queries, you may end the call.\n"
     "Important: Provide only a single, concise response. Do not give multiple variations."
 )
