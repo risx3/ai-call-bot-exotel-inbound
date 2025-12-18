@@ -39,6 +39,7 @@ COPY bot.py prompts.py ./
 # -----------------------------
 # Runtime configuration
 # -----------------------------
+EXPOSE 7861
 EXPOSE 7860
 
 # Basic container healthcheck (process-level)
@@ -48,4 +49,4 @@ HEALTHCHECK --interval=30s --timeout=5s --retries=3 \
 # -----------------------------
 # Start inbound bot
 # -----------------------------
-CMD ["uv", "run", "bot.py", "--transport", "exotel"]
+CMD ["uv", "run", "bot.py", "--host", "0.0.0.0", "--port", "7861", "--transport", "exotel"]
